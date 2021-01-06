@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="UPGRADE.h">
+      <Filter>UPGRADE</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXT_DISP.h">
+      <Filter>TEXT_DISP</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE.h">
+      <Filter>STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_MANAGER.h">
+      <Filter>STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="SOUND_MANAGER.h">
+      <Filter>SOUND_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVE.h" />
+    <ClInclude Include="LOAD_DISP.h">
+      <Filter>LOAD_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_MANAGER.h">
+      <Filter>ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISIONS.h">
+      <Filter>COLLISION</Filter>
+    </ClInclude>
+    <ClInclude Include="CAMERA_FOLLOW.h">
+      <Filter>CAMERA</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARD.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARD_ENTITY_LIGHT_BULLET.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARD_LASER.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARD_LIGHT_BULLET.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARDS.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_ENEMY.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_MEDAMA.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\MEDAMA</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_MEDAMA_STATE_MOVE.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\MEDAMA\ENTITY_MEDAMA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_MELEE.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_SHOT.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_MOVE.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_STATE.h">
+      <Filter>ENTITY\ENTITY_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_STATE_BASE.h">
+      <Filter>ENTITY\ENTITY_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_STATES.h">
+      <Filter>ENTITY\ENTITY_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY.h">
+      <Filter>ENTITY\ENTITY_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_CYLINDER.h">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_POINT.h">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_SPHERE.h">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_SPHERES.h">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_TERRAIN.h">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION.h">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLISION_MANAGER.h">
+      <Filter>COLLISION</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE00.h">
+      <Filter>STATE\STAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="STORY.h">
+      <Filter>STATE\STORY</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_HANA.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\HANA</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_HANA_STATE_MOVE.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\HANA\ENTITY_HANA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_BOSS_STATE_MOVE.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS\ENTITY_BOSS_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_BOSS.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_HANA_STATE_ATTACK.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\HANA\ENTITY_HANA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_MEDAMA_STATE_ATTACK.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\MEDAMA\ENTITY_MEDAMA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_SHOT.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_MELEE.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_IDEL.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_HANA_STATE_IDEL.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\HANA\ENTITY_HANA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_BOSS_STATE_IDEL.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS\ENTITY_BOSS_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_BOSS_STATE_ATTACK1.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS\ENTITY_BOSS_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_BOSS_STATE_ATTACK2.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS\ENTITY_BOSS_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_AVOID.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_SKILL2.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_SKILL1.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_SKILL3.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_MEDAMA_STATE_DOWN.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\MEDAMA\ENTITY_MEDAMA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_MEDAMA_STATE_IDEL.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\MEDAMA\ENTITY_MEDAMA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_HANA_STATE_DOWN.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\HANA\ENTITY_HANA_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_BOSS_STATE_DOWN.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS\ENTITY_BOSS_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MANAGER.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_BASE.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FADE.h">
+      <Filter>FADE</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_PLAYER_STATE_DOWN.h">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE_UI_LAYOUT.h">
+      <Filter>STATE\STAGE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_2D_CENTERED.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="createAssets.h">
+      <Filter>CreateAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="listsFile.h">
+      <Filter>CreateAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="INPUT_COMMON.h" />
+    <ClInclude Include="SETTING.h" />
+    <ClInclude Include="STAGE01.h">
+      <Filter>STATE\STAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE02.h">
+      <Filter>STATE\STAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARD_HIT.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_3D_LEFT.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_2D_RIGHT.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVE_SELECT.h">
+      <Filter>STATE\SAVE_SELECT</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVE_SELECT_UI_LAYOUT.h">
+      <Filter>STATE\SAVE_SELECT\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVE_SELECT_UI_SAVE_DATA.h">
+      <Filter>STATE\SAVE_SELECT\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_SAVE_SELECT.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU.h">
+      <Filter>STATE\MENU</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU_UI_LAYOUT.h">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU_UI_LAYOUT_ROUND.h">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_ROUND.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU_UI_LAYOUT_UPGRADE.h">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_UPGRADE.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU_UI_LAYOUT_SETTING.h">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA_LIB.h" />
+    <ClInclude Include="ENTITY_LASER.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_LASER_BOSS.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_LASER_HANA.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_LIGHT_BULLET.h">
+      <Filter>ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_LIGHT_BULLET_BOSS.h">
+      <Filter>ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET</Filter>
+    </ClInclude>
+    <ClInclude Include="ENTITY_LIGHT_BULLET_MEDAMA.h">
+      <Filter>ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET</Filter>
+    </ClInclude>
+    <ClInclude Include="OPTION.h">
+      <Filter>STATE\OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_OPTION_EXIT.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_OPTION_TITLE.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="BILLBOARD_BURN.h">
+      <Filter>BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DRAWER_FACTORY.h">
+      <Filter>UI\UI_DRAWER_FACTORY</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DRAWER.h">
+      <Filter>UI\UI_DRAWER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DRAWER_ANIM.h">
+      <Filter>UI\UI_DRAWER</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DRAWER_IMAGE.h">
+      <Filter>UI\UI_DRAWER</Filter>
+    </ClInclude>
+    <ClInclude Include="STORY_TEXT_LAYOUT.h">
+      <Filter>STATE\STORY\STORY_TEXT_LAYOUT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROLOGUE.h">
+      <Filter>STATE\PROLOGUE</Filter>
+    </ClInclude>
+    <ClInclude Include="EFFEKSSER.h">
+      <Filter>EFFEKSSER</Filter>
+    </ClInclude>
+    <ClInclude Include="EFFEKSSER_CONNECT.h">
+      <Filter>EFFEKSSER</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_SAVE_DELETE.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_STORY_SKIP.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG_RETRY.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="BATTLE_MESSAGE.h">
+      <Filter>STATE\STAGE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_FACTORY.h">
+      <Filter>STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.h">
+      <Filter>STATE\STAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_DATA_COMMON.h" />
+    <ClInclude Include="UPGRADE_LVL.h">
+      <Filter>UPGRADE</Filter>
+    </ClInclude>
+    <ClInclude Include="IDIALOG.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="STRING_DIALOG.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_2D_LEFT.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_3D_CENTERED.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG.h">
+      <Filter>DIALOG</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>STATE\TITLE</Filter>
+    </ClInclude>
+    <ClInclude Include="HP_GAUGE.h">
+      <Filter>ENTITY\COMPONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="HIT_POINT.h">
+      <Filter>ENTITY\COMPONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_GAUGE.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_FLASH.h">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UPGRADE.cpp">
+      <Filter>UPGRADE</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXT_DISP.cpp">
+      <Filter>TEXT_DISP</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_MANAGER.cpp">
+      <Filter>STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="SOUND_MANAGER.cpp">
+      <Filter>SOUND_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVE.cpp" />
+    <ClCompile Include="LOAD_DISP.cpp">
+      <Filter>LOAD_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_MANAGER.cpp">
+      <Filter>ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISIONS.cpp">
+      <Filter>COLLISION</Filter>
+    </ClCompile>
+    <ClCompile Include="CAMERA_FOLLOW.cpp">
+      <Filter>CAMERA</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARD_ENTITY_LIGHT_BULLET.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARD_LASER.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARD_LIGHT_BULLET.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARDS.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_ENEMY.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_MEDAMA.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\MEDAMA</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_PLAYER.cpp">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_PLAYER_MELEE.cpp">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_PLAYER_SHOT.cpp">
+      <Filter>ENTITY\ENTITY_EACH\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_STATES.cpp">
+      <Filter>ENTITY\ENTITY_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY.cpp">
+      <Filter>ENTITY\ENTITY_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_CYLINDER.cpp">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_POINT.cpp">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_SPHERE.cpp">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_SPHERES.cpp">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_TERRAIN.cpp">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION.cpp">
+      <Filter>COLLISION\COLLISION_EACH</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLISION_MANAGER.cpp">
+      <Filter>COLLISION</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE00.cpp">
+      <Filter>STATE\STAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="STORY.cpp">
+      <Filter>STATE\STORY</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_HANA.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\HANA</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_BOSS.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MANAGER.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_BASE.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FADE.cpp">
+      <Filter>FADE</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE_UI_LAYOUT.cpp">
+      <Filter>STATE\STAGE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_2D_CENTERED.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="createAssets.cpp">
+      <Filter>CreateAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="listsFile.cpp">
+      <Filter>CreateAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="INPUT_COMMON.cpp" />
+    <ClCompile Include="SETTING.cpp" />
+    <ClCompile Include="STAGE01.cpp">
+      <Filter>STATE\STAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE02.cpp">
+      <Filter>STATE\STAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARD_HIT.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_3D_LEFT.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_2D_RIGHT.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVE_SELECT.cpp">
+      <Filter>STATE\SAVE_SELECT</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVE_SELECT_UI_LAYOUT.cpp">
+      <Filter>STATE\SAVE_SELECT\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVE_SELECT_UI_SAVE_DATA.cpp">
+      <Filter>STATE\SAVE_SELECT\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_SAVE_SELECT.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU.cpp">
+      <Filter>STATE\MENU</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_UI_LAYOUT.cpp">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_UI_LAYOUT_ROUND.cpp">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_ROUND.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_UI_LAYOUT_UPGRADE.cpp">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_UPGRADE.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_UI_LAYOUT_SETTING.cpp">
+      <Filter>STATE\MENU\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DATA_LIB.cpp" />
+    <ClCompile Include="ENTITY_LASER.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_LASER_HANA.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_LASER_BOSS.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_LIGHT_BULLET.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_LIGHT_BULLET_MEDAMA.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET</Filter>
+    </ClCompile>
+    <ClCompile Include="ENTITY_LIGHT_BULLET_BOSS.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET</Filter>
+    </ClCompile>
+    <ClCompile Include="OPTION.cpp">
+      <Filter>STATE\OPTION</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_OPTION_TITLE.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_OPTION_EXIT.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARD_BURN.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DRAWER_FACTORY.cpp">
+      <Filter>UI\UI_DRAWER_FACTORY</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DRAWER.cpp">
+      <Filter>UI\UI_DRAWER</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DRAWER_ANIM.cpp">
+      <Filter>UI\UI_DRAWER</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DRAWER_IMAGE.cpp">
+      <Filter>UI\UI_DRAWER</Filter>
+    </ClCompile>
+    <ClCompile Include="STORY_TEXT_LAYOUT.cpp">
+      <Filter>STATE\STORY\STORY_TEXT_LAYOUT</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>STATE\TITLE</Filter>
+    </ClCompile>
+    <ClCompile Include="PROLOGUE.cpp">
+      <Filter>STATE\PROLOGUE</Filter>
+    </ClCompile>
+    <ClCompile Include="EFFEKSSER.cpp">
+      <Filter>EFFEKSSER</Filter>
+    </ClCompile>
+    <ClCompile Include="EFFEKSSER_CONNECT.cpp">
+      <Filter>EFFEKSSER</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_SAVE_DELETE.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_STORY_SKIP.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG_RETRY.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="BATTLE_MESSAGE.cpp">
+      <Filter>STATE\STAGE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>STATE\STAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_DATA_COMMON.cpp" />
+    <ClCompile Include="STATE_FACTORY.cpp">
+      <Filter>STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="UPGRADE_LVL.cpp">
+      <Filter>UPGRADE</Filter>
+    </ClCompile>
+    <ClCompile Include="STRING_DIALOG.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="BILLBOARD.cpp">
+      <Filter>BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_2D_LEFT.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_3D_CENTERED.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG.cpp">
+      <Filter>DIALOG</Filter>
+    </ClCompile>
+    <ClCompile Include="HP_GAUGE.cpp">
+      <Filter>ENTITY\COMPONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="HIT_POINT.cpp">
+      <Filter>ENTITY\COMPONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_GAUGE.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_FLASH.cpp">
+      <Filter>ENTITY\ENTITY_EACH\ENEMY\BOSS</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BILLBOARD">
+      <UniqueIdentifier>{edd3b2ca-52b5-469a-ab10-4b385c071fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CAMERA">
+      <UniqueIdentifier>{86561fad-1c1a-4d62-8649-eaa29f648da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLISION">
+      <UniqueIdentifier>{851496cc-adb0-4de0-95ef-663c56adb1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLISION\COLLISION_EACH">
+      <UniqueIdentifier>{97023e96-614f-4b44-a5ba-026c900302a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY">
+      <UniqueIdentifier>{f74c2c56-7a85-4188-9fcd-9aab44481211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_STATE">
+      <UniqueIdentifier>{95538694-9f0a-42a4-904a-d028bc1638fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LOAD_STATE">
+      <UniqueIdentifier>{42fba026-df52-4d13-9eb3-aecf1511dfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOUND_MANAGER">
+      <UniqueIdentifier>{fa83cf42-cad3-4b67-94ca-753e15d73548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE">
+      <UniqueIdentifier>{609f46f5-0e4b-4b7b-928f-5e10fde6d2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UPGRADE">
+      <UniqueIdentifier>{b51ec7b9-ded1-4018-8ce9-6bfe0239f141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEXT_DISP">
+      <UniqueIdentifier>{819e7f7d-7469-4c6e-b19e-6395a31566fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\STORY">
+      <UniqueIdentifier>{5bdb48e4-5067-4092-bc6a-8a9e9edf2621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9607807d-028e-4c3d-a4e1-c1106c8c1b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH">
+      <UniqueIdentifier>{7d79e2a6-a1be-4b91-acb7-cb66978f5f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY">
+      <UniqueIdentifier>{5165fd11-35b1-4b54-897a-5e310de1fa80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\BOSS">
+      <UniqueIdentifier>{2e4e51a8-64ba-4920-8198-4a5786cd2509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\BOSS\ENTITY_BOSS_STATE">
+      <UniqueIdentifier>{30fdf8f4-fbb4-4a56-ae54-3dce8bb780b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\MEDAMA">
+      <UniqueIdentifier>{4869e08a-92eb-4b8a-9072-e01c677983a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\MEDAMA\ENTITY_MEDAMA_STATE">
+      <UniqueIdentifier>{3478e611-0c8c-49b5-9917-dab6ee753681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\HANA">
+      <UniqueIdentifier>{5f3652b6-a6f8-4ac8-a13b-356ea89033ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\HANA\ENTITY_HANA_STATE">
+      <UniqueIdentifier>{627238a5-0aa7-4b64-88ef-831ab2592993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\PLAYER">
+      <UniqueIdentifier>{633a9895-9fc3-474c-a3a6-4552607e7fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\PLAYER\ENTITY_PLAYER_STATE">
+      <UniqueIdentifier>{feb7d6b6-2b74-4750-b6bc-d71545dd5553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FADE">
+      <UniqueIdentifier>{1264f24c-3b05-416e-a2f2-e6f94eef60db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateAssets">
+      <UniqueIdentifier>{bd6b05ae-c0a0-4ec1-93ab-fe2715745cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\SAVE_SELECT">
+      <UniqueIdentifier>{905210f4-92de-4158-a3d9-310e67e79be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\SAVE_SELECT\UI">
+      <UniqueIdentifier>{b5a1d981-2060-4af6-a7cb-4f7faa12affd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DIALOG">
+      <UniqueIdentifier>{2db1a0d5-2ac0-4c3b-9221-48d95695a089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\MENU">
+      <UniqueIdentifier>{160cbbce-b66c-456b-a3c1-156af2c8fccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\MENU\UI">
+      <UniqueIdentifier>{68401122-3b35-409b-aebf-8ebe53301d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENEMY\ENTITY_LASER">
+      <UniqueIdentifier>{8f342583-ac0d-456d-9699-93b3d745b51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\ENTITY_EACH\ENTITY_LIGHT_BULLET">
+      <UniqueIdentifier>{1a6ee447-2bbe-49f5-b979-daa1192c107f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\OPTION">
+      <UniqueIdentifier>{4faf01b1-f2a8-472f-93a7-bbce3d85a0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UI_DRAWER_FACTORY">
+      <UniqueIdentifier>{d5e63031-fcc0-4270-9cc8-2b46744e71fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UI_DRAWER">
+      <UniqueIdentifier>{e02d9348-b6b1-4e86-b846-28afc99fddf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\STORY\STORY_TEXT_LAYOUT">
+      <UniqueIdentifier>{b16540ee-297a-4e20-a72c-5b61ee8b0f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\TITLE">
+      <UniqueIdentifier>{f2e762fe-3cbf-4da4-bbef-42b0abbc436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\PROLOGUE">
+      <UniqueIdentifier>{b4c701c2-d481-40a4-96ee-3656314df6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EFFEKSSER">
+      <UniqueIdentifier>{fe5bc6c6-45b9-4705-b152-35a18e8745b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\STAGE">
+      <UniqueIdentifier>{e8cf3ecd-1adb-4006-b20d-40c8b9e84edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STATE\STAGE\UI">
+      <UniqueIdentifier>{649df6e1-067f-4be3-badf-694504a84c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY\COMPONENT">
+      <UniqueIdentifier>{4d02447e-f880-471e-8283-ae5600df3235}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\data\data.txt" />
+  </ItemGroup>
+</Project>

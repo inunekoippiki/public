@@ -1,0 +1,25 @@
+page[
+		{
+			text[
+					{text{一行目\n}color{FFFFFF}}
+					{text{二行目\n}color{777777}}
+					{text{三\s行\s目\n}color{000000}}
+			]
+			name{キャラクター名}
+			image[
+				{image{texture}px{100.0}py{10.0}fadeIn{10}fadeOut{60}}
+				{image{texture}px{100.0}py{10.0}fadeIn{10}fadeOut{60}}
+			]
+		}
+		{
+			text[
+					{text{二ペー--------------------ジ目。一行目\n}color{FFFFFF}}
+					{text{二ペーーーーーーーーーーーーーーーージ目。二行目\n}color{777777}}
+					{text{二ページ目。三\s行\s目\n}color{000000}}
+			]
+			name{キャラクター名}
+			image[
+				{image{texture}px{100.0}py{10.0}fadeIn{10}fadeOut{60}}
+			]
+		}
+]	

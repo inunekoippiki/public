@@ -1,0 +1,176 @@
+82
+forestRuinsMorning 0 0 0 10 -1 0
+kurusu_komaru 1043 0 0 20 -1 0
+noa_mu 121 0 1 20 -1 0
+kurusu_egao1 1043 0 2 0 -1 0
+black 0 0 3 10 -1 10
+black 0 0 4 10 -1 0
+villageEvening 0 0 4 10 -1 0
+noa_mu 121 0 4 20 -1 0
+kurusu_mu 1043 0 5 20 -1 0
+noa_mu 121 0 6 20 -1 0
+statue1 0 0 7 10 -1 0
+villageEvening 0 0 9 10 -1 0
+noa_mu 121 0 9 0 -1 0
+kurusu_mu 1043 0 9 0 -1 0
+noa_mu 121 0 10 20 -1 0
+kurusu_mu 1043 0 11 20 -1 0
+noa_odoroku 121 0 12 10 -1 0
+kurusu_odoroku 1043 0 12 10 -1 0
+noa_odoroku 121 0 13 10 -1 0
+kurusu_kime 1043 0 14 0 -1 0
+black 0 0 15 10 -1 10
+villageEvening 0 0 16 10 -1 0
+noa_mu 121 0 16 20 -1 0
+kurusu_kime 1043 0 17 20 -1 0
+black 0 0 18 10 -1 10
+houses 0 0 19 10 -1 10
+kurusu_mu 1043 0 19 10 -1 0
+noa_mu 121 0 19 10 -1 0
+noa_odoroku 121 0 21 20 -1 10
+girl_komaru 700 0 22 20 -1 10
+kurusu_kime 1043 0 23 20 -1 10
+noa_kiri 121 0 24 20 -1 10
+black 0 0 25 10 -1 0
+houses 0 0 26 10 -1 0
+kurusu_mu 1043 0 26 10 -1 0
+girl_egao1 700 0 27 10 -1 10
+kurusu_egao1 1043 0 28 20 -1 0
+girl_egao1 700 0 29 20 -1 0
+black 0 0 30 10 -1 0
+houses 0 0 31 10 -1 0
+kurusu_odoroku 1043 0 31 20 -1 0
+noa_odoroku 121 0 32 20 -1 10
+kurusu_mu 1043 0 33 20 -1 10
+girl_komaru 700 0 34 20 -1 10
+kurusu_mu 1043 0 35 20 -1 10
+noa_mu 121 0 37 20 -1 10
+girl_mu 700 0 38 20 -1 10
+kurusu_mu 1043 0 39 20 -1 10
+girl_mu 700 0 40 20 -1 10
+kurusu_mu 1043 0 41 20 -1 10
+girl_komaru 700 0 42 20 -1 10
+kurusu_mu 1043 0 43 20 -1 10
+girl_egao1 700 0 44 20 -1 10
+kurusu_mu 1043 0 45 20 -1 10
+girl_mu 700 0 46 20 -1 10
+girl_mu 700 0 47 20 -1 10
+girl_egao1 699 0 48 0 -1 0
+noa_komaru 121 0 49 20 -1 10
+girl_odoroku 700 0 50 20 -1 10
+noa_mu 121 0 51 20 -1 10
+girl_komaru 700 0 52 20 -1 10
+kurusu_mu 1043 0 53 20 -1 10
+girl_odoroku 700 0 54 20 -1 10
+kurusu_komaru 1043 0 55 20 -1 10
+girl_odoroku 700 0 56 20 -1 10
+girl_odoroku 700 0 57 20 -1 10
+kurusu_mu 1043 0 58 20 -1 10
+kurusu_kime 1043 0 59 20 -1 10
+noa_kiri 121 0 60 20 -1 10
+girl_odoroku 700 0 61 20 -1 10
+black 0 0 62 10 -1 10
+villageEvening 0 0 63 10 -1 10
+kurusu_komaru 1043 0 64 20 -1 10
+noa_komaru 121 0 65 20 -1 10
+kurusu_komaru 1043 0 66 20 -1 10
+black 0 0 67 10 -1 10
+forestRuinsEvening 0 0 68 10 -1 10
+kurusu_kime 1043 0 68 20 -1 10
+kurusu_mu 1043 0 69 10 -1 0
+kurusu_kime 1043 0 70 10 -1 0
+noa_kiri 121 0 71 10 -1 0
+kurusu_kime 1043 0 72 10 -1 0
+73
+クルス 0
+ノア 1
+クルス 2
+_ 3
+ノア 4
+クルス 5
+ノア 6
+ノア 7
+クルス 8
+クルス 9
+ノア 10
+クルス 11
+??? 12
+ノア 13
+クルス 14
+_ 15
+ノア 16
+クルス 17
+_ 18
+クルス 19
+魔物 20
+ノア 21
+村の少女 22
+クルス 23
+ノア 24
+_ 25
+クルス 26
+村の少女 27
+クルス 28
+村の少女 29
+_ 30
+クルス 31
+ノア 32
+クルス 33
+村の少女 34
+クルス 35
+クルス 36
+ノア 37
+村の少女 38
+クルス 39
+村の少女 40
+クルス 41
+村の少女 42
+クルス 43
+村の少女 44
+クルス 45
+村の少女 46
+村の少女 47
+村の少女 48
+ノア 49
+村の少女 50
+ノア 51
+村の少女 52
+クルス 53
+村の少女 54
+クルス 55
+_ 56
+村の少女 57
+クルス 58
+クルス 59
+ノア 60
+村の少女 61
+_ 62
+魔物 63
+クルス 64
+ノア 65
+クルス 66
+_ 67
+魔物 68
+クルス 69
+クルス 70
+ノア 71
+クルス 72
+18
+Mysty-Valley 0 1
+running_on_the_gravel 3 0
+bossnekonoteshita 12 1
+running_on_the_gravel 15 0
+chari01 16 0
+crash20_a 18 0
+Monster01-3 20 0
+kennooto 25 0
+medama_down 25 0
+solarisnoame 27 1
+bom17_a 56 0
+muon 56 1
+Battle-Conflict 57 1
+running_on_the_gravel 62 0
+Monster01-3 63 0
+medama_appear 63 0
+running_on_the_gravel 67 0
+Monster01-3 68 0

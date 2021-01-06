@@ -1,0 +1,17 @@
+6
+forestRuinsNight 0 0 0 10 -1 10
+noa_odoroku 121 0 1 0 -1 0
+kurusu_mu 1043 0 2 0 -1 0
+kurusu_kime 1043 0 3 0 -1 0
+noa_kiri 121 0 4 0 -1 0
+black 0 0 5 10 -1 10
+6
+_ 0
+ノア 1
+クルス 2
+クルス 3
+ノア 4
+_ 5
+2
+Monster01-3 0 0
+darkmatter 0 1

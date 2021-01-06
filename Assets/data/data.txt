@@ -1,0 +1,545 @@
+//PLAYER
+d ENTITY_PLAYER::CenterPosOffset.y 1.0
+d ENTITY_PLAYER::UpperPosOffset.y 2.0
+d ENTITY_PLAYER::MoveSpeed 0.05
+d ENTITY_PLAYER::AvoidSpeed 0.12
+d ENTITY_PLAYER::MaxHp 100
+d ENTITY_PLAYER::MaxSp 10000
+d ENTITY_PLAYER::SpNaturalRecoveryAmount 5
+d ENTITY_PLAYER::SpDamageRecoveryAmount 23
+d ENTITY_PLAYER::CollisionOffest1.y 0.3
+d ENTITY_PLAYER::CollisionRadius1 0.3
+d ENTITY_PLAYER::CollisionOffest2.y 0.9
+d ENTITY_PLAYER::CollisionRadius2 0.3
+d ENTITY_PLAYER::AttackRange 1.5
+d ENTITY_PLAYER::AttackSpeed 1.0
+d ENTITY_PLAYER::AttackDamage 10.0
+d ENTITY_PLAYER::ProximityAttackDamageBoost 1.8
+d ENTITY_PLAYER::Skill1SpCost 10000
+d ENTITY_PLAYER::Skill2SpCost 10000
+d ENTITY_PLAYER::Skill3SpCost 10000
+d ENTITY_PLAYER::Skill1Time 1200
+d ENTITY_PLAYER::Skill2Time 1200
+d ENTITY_PLAYER::InvincibleTime 10
+d ENTITY_PLAYER::BulletSpeed 0.4
+d ENTITY_PLAYER::BulletSize 0.4
+d ENTITY_PLAYER::ActivateFrame_Skill 20
+d ENTITY_PLAYER::ActivateFrame_Melle 20
+d ENTITY_PLAYER::ActivateFrame_Shot 30
+d ENTITY_PLAYER::ActivateEndFrame_Avoid 8
+d ENTITY_PLAYER::TargetAngleRange 0.3
+d ENTITY_PLAYER::Gravity -0.01
+d ENTITY_PLAYER::WalkInertia 0.98
+
+d ENTITY_PLAYER::UiLockOnScale.x 10.0
+d ENTITY_PLAYER::UiLockOnScale.y 10.0
+d ENTITY_PLAYER::UiLockOnPriority 10000
+d ENTITY_PLAYER::EffectBufAppearInterval 100
+
+d ENTITY_PLAYER::TreeSwordScale.x 10.0
+d ENTITY_PLAYER::TreeSwordScale.y 10.0
+d ENTITY_PLAYER::TreeSwordScale.z 10.0
+d ToAnim_Noa_avoid 16.0
+d ToAnim_Noa_idel 32.0
+d ToAnim_Noa_melee 32.0
+d ToAnim_Noa_move 32.0
+d ToAnim_Noa_shot 64.0
+d ToAnim_Noa_skill 32.0
+d ToAnim_Noa_down 32.0
+d AnimSpeed_Noa_avoid 0.4
+d AnimSpeed_Noa_idel 0.5
+d AnimSpeed_Noa_melee 0.5
+d AnimSpeed_Noa_move 0.5
+d AnimSpeed_Noa_shot 0.5
+d AnimSpeed_Noa_skill 0.5
+d AnimSpeed_Noa_down 0.5
+d AnimEndFrame_Noa_avoid 19
+d AnimEndFrame_Noa_idel 59
+d AnimEndFrame_Noa_melee 29
+d AnimEndFrame_Noa_move 24
+d AnimEndFrame_Noa_shot 59
+d AnimEndFrame_Noa_skill 29
+d AnimEndFrame_Noa_down 59
+
+//目
+d ENTITY_MEDAMA::CenterPosOffset.y 0.5
+d ENTITY_MEDAMA::UpperPosOffset.y 1.2
+d ENTITY_MEDAMA::MaxHp 100
+d ENTITY_MEDAMA::AttackDamage 20
+d ENTITY_MEDAMA::ActivateFrame_Attack 5
+d ENTITY_MEDAMA::AttackTime 180
+d ENTITY_MEDAMA::IdelTime 260
+d ENTITY_MEDAMA::MoveTime 260
+d ENTITY_MEDAMA::MoveSpeed 0.01
+d ENTITY_MEDAMA::MoveRadCntSpeed 0.01
+d ENTITY_MEDAMA::AttackInterval 85
+d ENTITY_MEDAMA::BulletSpeed 0.02
+d ENTITY_MEDAMA::BulletSize 0.3
+d ENTITY_MEDAMA::Gravity -0.01
+
+d ENTITY_MEDAMA::CollisionOffest.y 0.5
+d ENTITY_MEDAMA::CollisionRadius 0.4
+d ToAnim_Medama_idel 32.0
+d ToAnim_Medama_attack 32.0
+d ToAnim_Medama_move 32.0
+d ToAnim_Medama_down 32.0
+d AnimSpeed_Medama_idel 0.5
+d AnimSpeed_Medama_attack 0.1
+d AnimSpeed_Medama_move 0.5
+d AnimSpeed_Medama_down 0.5
+d AnimEndFrame_Medama_idel 29
+d AnimEndFrame_Medama_attack 29
+d AnimEndFrame_Medama_move 29
+d AnimEndFrame_Medama_down 20
+
+//鼻
+d ENTITY_HANA::CenterPosOffset.y 0.5
+d ENTITY_HANA::UpperPosOffset.y 1.2
+d ENTITY_HANA::MaxHp 150
+d ENTITY_HANA::MoveSpeed 0.03
+d ENTITY_HANA::MoveTime 180
+d ENTITY_HANA::AttackDamage 10
+d ENTITY_HANA::LaserSize 0.5
+d ENTITY_HANA::LaserLength 100
+d ENTITY_HANA::LaserLifeTime 180
+d ENTITY_HANA::ActivateFrame_Attack 10
+d ENTITY_HANA::IdelTime 60
+d ENTITY_HANA::Gravity -0.01
+
+d ENTITY_HANA::CollisionOffest.y 0.5
+d ENTITY_HANA::CollisionRadius 0.5
+d ToAnim_Hana_idel 32.0
+d ToAnim_Hana_attack 32.0
+d ToAnim_Hana_move 32.0
+d ToAnim_Hana_down 32.0
+d AnimSpeed_Hana_idel 0.5
+d AnimSpeed_Hana_attack 0.5
+d AnimSpeed_Hana_move 0.5
+d AnimSpeed_Hana_down 0.5
+d AnimEndFrame_Hana_idel 36
+d AnimEndFrame_Hana_attack 36
+d AnimEndFrame_Hana_move 36
+d AnimEndFrame_Hana_down 25
+
+//ケンタ
+d ENTITY_BOSS::CenterPosOffset.y 2.0
+d ENTITY_BOSS::UpperPosOffset.y 3.0
+d ENTITY_BOSS::MaxHp 1200
+d ENTITY_BOSS::MoveSpeed 0.14
+d ENTITY_BOSS::MoveTime 300
+d ENTITY_BOSS::BodyBlowDamage 40
+d ENTITY_BOSS::AttackDamage1 15
+d ENTITY_BOSS::LaserSize 1.0
+d ENTITY_BOSS::LaserLength 100
+d ENTITY_BOSS::LaserLifeTime 300
+d ENTITY_BOSS::AttackDamage2 20
+d ENTITY_BOSS::Attack2BulletFluctuation 12.0
+d ENTITY_BOSS::BulletSpeed 0.2
+d ENTITY_BOSS::BulletSize 0.3
+d ENTITY_BOSS::ActivateFrame_Attack1 60
+d ENTITY_BOSS::ActivateFrame_Attack2 10
+d ENTITY_BOSS::IdelTime 240
+d ENTITY_BOSS::Gravity -0.01
+
+d ENTITY_BOSS::CollisionOffest1.y 0.5
+d ENTITY_BOSS::CollisionRadius1 0.5
+d ENTITY_BOSS::CollisionOffest2.y 1.5
+d ENTITY_BOSS::CollisionRadius2 0.5
+d ENTITY_BOSS::CollisionOffest3.y 2.3
+d ENTITY_BOSS::CollisionRadius3 0.4
+
+d ToAnim_Boss_idel 32.0
+d ToAnim_Boss_attack1 32.0
+d ToAnim_Boss_attack2 32.0
+d ToAnim_Boss_move 32.0
+d ToAnim_Boss_down 32.0
+d AnimSpeed_Boss_idel 0.5
+d AnimSpeed_Boss_attack1 0.2
+d AnimSpeed_Boss_attack2 0.3
+d AnimSpeed_Boss_move 0.5
+d AnimSpeed_Boss_down 0.5
+d AnimEndFrame_Boss_idel 36
+d AnimEndFrame_Boss_attack1 100
+d AnimEndFrame_Boss_attack2 100
+d AnimEndFrame_Boss_move 67
+d AnimEndFrame_Boss_down 25
+
+d ENTITY_BOSS::BossHpGaugePos.x 1885.0
+d ENTITY_BOSS::BossHpGaugePos.y 986.0
+d ENTITY_BOSS::BossHpGaugeBackPos.x 681.0
+d ENTITY_BOSS::BossHpGaugeBackPos.y 930.0
+d ENTITY_BOSS::BossHpGaugeLayerPriority 20001
+d ENTITY_BOSS::BossHpGaugeLayerBackPriority 20000
+
+//ENEMY全体
+d ENTITY_ENEMY::DisappearTime 180
+d ENTITY_ENEMY::DisappearFrequency 5
+d ENTITY_ENEMY::HpGaugeScale 3.0
+d ENTITY_ENEMY::HpGaugeLayerPriority 5001
+d ENTITY_ENEMY::HpGaugeLayerPriority 5001
+d ENTITY_ENEMY::HpGaugeBackLayerPriority 5000
+
+//ビルボード
+d WOOD::textureName girl
+
+d EXPLOSION::NumTextures 56
+d EXPLOSION::textureName explosion
+
+d BILLBOARD_HIT::NumTextures 10
+d BILLBOARD_HIT::textureName HitEffect.
+
+d BILLBOARD_PARTICLE::textureName sphere
+
+d BILLBOARDS::NumWoods 10
+d BILLBOARDS::NumExplosions 10
+d BILLBOARDS::ExplodeInterval 5
+d BILLBOARDS::NumFire 10
+d BILLBOARDS::FireInterval 5
+
+d EFFECT_FIRE::NumTextures 120
+d EFFECT_FIRE::textureName unti
+
+d CAMERA::VerticalRad 0.0
+d CAMERA::VerticalRadLimmitHigh 1.5
+d CAMERA::VerticalRadLimmitLow -1.5
+d CAMERA::HorizontalRad 0
+d CAMERA::DistanceFromLookatPos 4.0
+d CAMERA::RotateSpeed 0.03
+d CAMERA::AutoRotateSpeed 0.0005
+d CAMERA::ZoomSpeed 0.1
+d CAMERA::OffsetY 0.2
+
+d CAMERA_FOLLOW::VerticalRad 0.0
+d CAMERA_FOLLOW::VerticalRadLimmitHigh 1.5
+d CAMERA_FOLLOW::VerticalRadLimmitLow -0.3
+d CAMERA_FOLLOW::HorizontalRad 0.0
+d CAMERA_FOLLOW::DistanceFromLookatPos 7.0
+d CAMERA_FOLLOW::RotateSpeed 0.02
+d CAMERA_FOLLOW::Offset.x 1.0
+d CAMERA_FOLLOW::Offset.y 2.0
+d CAMERA_FOLLOW::Offset.z 0.0
+d CAMERA_FOLLOW::AutoRotateSpeed 0.008
+
+d CAMERA_FPS::VerticalRad 0.0
+d CAMERA_FPS::VerticalRadLimmitHigh 1.5
+d CAMERA_FPS::VerticalRadLimmitLow -1.5
+d CAMERA_FPS::HorizontalRad 0
+d CAMERA_FPS::DistanceFromLookatPos 4.0
+d CAMERA_FPS::RotateSpeed 0.03
+d CAMERA_FPS::Offset.x 0.0
+d CAMERA_FPS::Offset.y 0.0
+d CAMERA_FPS::Offset.z 0.0
+
+d STAGE::LightPos.x 0.1
+d STAGE::LightPos.y 5.0
+d STAGE::LightPos.z 0.1
+d STAGE::Ambient 1.0
+d STAGE::Diffuse.r 0.9
+d STAGE::Diffuse.g 0.9
+d STAGE::Diffuse.b 0.9
+d STAGE::ClearTargetColor.r 1
+d STAGE::ClearTargetColor.g 1
+d STAGE::ClearTargetColor.b 1
+d STAGE::GameoverStateTime 240
+
+d COLLISION_TERRAIN::Floor 0.01
+d COLLISION_TERRAIN::Sx -11.0
+d COLLISION_TERRAIN::Sz -11.0
+d COLLISION_TERRAIN::Ex 11.0
+d COLLISION_TERRAIN::Ez 11.0
+
+d BILLBOARD_WOOD::textureName tree
+
+d EXPLOSION::NumTextures 56
+d EXPLOSION::textureName unti
+
+d BILLBOARDS::NumWoods 1000
+d BILLBOARDS::NumExplosions 10000
+d BILLBOARDS::ExplodeInterval 5
+d BILLBOARDS::NumFire 10000
+d BILLBOARDS::FireInterval 5
+
+d BILLBOARD_ENTITY_LIGHT_BULLET::textureName sphere
+
+d BILLBOARD_LIGHT_BULLET::textureName Noa1.
+d BILLBOARD_LIGHT_BULLET::numTexture 10
+
+d BILLBOARD_ENTITY_LIGHT_BULLET::textureName1 boss1.
+d BILLBOARD_ENTITY_LIGHT_BULLET::numTexture1 12
+d BILLBOARD_ENTITY_LIGHT_BULLET::textureName2 Me.11.
+d BILLBOARD_ENTITY_LIGHT_BULLET::numTexture2 10
+d BILLBOARD_ENTITY_LIGHT_BULLET::textureName3 Noa1.
+d BILLBOARD_ENTITY_LIGHT_BULLET::numTexture3 10
+
+d BILLBOARD_LASER::textureName1 boss44
+d BILLBOARD_LASER::numTexture1 1
+d BILLBOARD_LASER::textureName2 hana333
+d BILLBOARD_LASER::numTexture2 1
+
+d BILLBOARD_ENEMY_SPAWN::textureNum 69
+d BILLBOARD_ENEMY_SPAWN::textureName EnemySpawnEffect.
+
+d BILLBOARD_BURN::NumTextures 79
+d BILLBOARD_BURN::textureName moero.
+
+
+//PROLOGUE
+d PrologueFile Assets/story/prologue.txt
+d PrologueDispSpeed 4
+d PrologueFontSize 50
+d PrologueTextPos.y 330.0
+
+//STORY
+d StoryDispSpeed 4
+d StoryFontSize 50
+d StoryTextPos.x 150.0
+d StoryTextPos.y 830.0
+d StoryCharaNamePos.x 230.0
+d StoryCharaNamePos.y 695.0
+d StoryTextBoxPos.x 0.0
+d StoryTextBoxPos.y 670.0
+d StoryCharaNameFontSize 60
+d STORY::SkipIconPos.x 1648.0
+d STORY::SkipIconPos.y 702.0
+
+//アップグレード
+d ConvertSkillPointCoefficient 0.019
+d maxHp0 120
+d maxHp1 140
+d maxHp2 170
+d maxHp3 210
+d maxHp4 300
+d moveSpeedBoost0 1.0
+d moveSpeedBoost1 1.05
+d moveSpeedBoost2 1.10
+d moveSpeedBoost3 1.15
+d moveSpeedBoost4 1.25
+d attackRangeBoost0 1.0
+d attackRangeBoost1 1.05
+d attackRangeBoost2 1.10
+d attackRangeBoost3 1.15
+d attackRangeBoost4 1.24
+d attackSpeedBoost0 1.0
+d attackSpeedBoost1 1.05
+d attackSpeedBoost2 1.10
+d attackSpeedBoost3 1.15
+d attackSpeedBoost4 1.24
+d attackDamageBoost0 1.0
+d attackDamageBoost1 1.2
+d attackDamageBoost2 1.5
+d attackDamageBoost3 2.0
+d attackDamageBoost4 2.6
+d attackDamageSkillBoost0 1.3
+d attackDamageSkillBoost1 1.9
+d attackDamageSkillBoost2 2.5
+d moveSpeedSkillBoost0 1.4
+d moveSpeedSkillBoost1 1.7
+d moveSpeedSkillBoost2 2.2
+d healPower0 100
+d healPower1 140
+d healPower2 200
+d MaxLvlUpGradeHp 4
+d MaxLvlUpGradeAttckDamage 4
+d MaxLvlUpGradeAttckRange 4
+d MaxLvlUpGradeAttckSpeed 4
+d MaxLvlUpGradeMoveSpeed 4
+d MaxLvlUpGradeSkill1 2
+d MaxLvlUpGradeSkill2 2
+d MaxLvlUpGradeSkill3 2
+
+
+
+
+//STAGE_UI_LAYOUT
+
+d STAGE_UI_LAYOUT::TextBoxPos.x 0.0
+d STAGE_UI_LAYOUT::TextBoxPos.y 670.0
+d STAGE_UI_LAYOUT::TextFontSize 60
+d STAGE_UI_LAYOUT::TextBoxLayerPriority 40000
+d STAGE_UI_LAYOUT::TextPos.x 150.0
+d STAGE_UI_LAYOUT::TextPos.y 830.0
+d STAGE_UI_LAYOUT::TextLayerPriority 40001
+
+
+d STAGE_UI_LAYOUT::StatusBackPos.x 0.0
+d STAGE_UI_LAYOUT::StatusBackPos.y 0.0
+d STAGE_UI_LAYOUT::StatusBackLayerPriority 20000
+
+d STAGE_UI_LAYOUT::HpGaugePos.x 187.0
+d STAGE_UI_LAYOUT::HpGaugePos.y 57.0
+d STAGE_UI_LAYOUT::HpGaugeLayerPriority 20001
+
+d STAGE_UI_LAYOUT::SkillGaugePos.x 187.0
+d STAGE_UI_LAYOUT::SkillGaugePos.y 103.0
+d STAGE_UI_LAYOUT::SkillGaugeLayerPriority 20001
+
+d STAGE_UI_LAYOUT::SkillIconPos1.x 110.0
+d STAGE_UI_LAYOUT::SkillIconPos1.y 910.0
+d STAGE_UI_LAYOUT::SkillIconPos2.x 280.0
+d STAGE_UI_LAYOUT::SkillIconPos2.y 910.0
+d STAGE_UI_LAYOUT::SkillIconPos3.x 450.0
+d STAGE_UI_LAYOUT::SkillIconPos3.y 910.0
+d STAGE_UI_LAYOUT::SkillIconLayerPriority 20000
+d STAGE_UI_LAYOUT::SkillIconSelectLayerPriority 20001
+
+d STAGE_UI_LAYOUT::CrossHairPos.x 960.0
+d STAGE_UI_LAYOUT::CrossHairPos.y 540.0
+d STAGE_UI_LAYOUT::CrossHairLayerPriority 30000
+d STAGE_UI_LAYOUT::GameOverPos.x 960.0
+d STAGE_UI_LAYOUT::GameOverPos.y 540.0
+d STAGE_UI_LAYOUT::GameOverLayerPriority 50000
+
+d STAGE_UI_LAYOUT::BattleMessageBoxNoaFontSize 40
+d STAGE_UI_LAYOUT::BattleMessageBoxNoaPos.x 22.0
+d STAGE_UI_LAYOUT::BattleMessageBoxNoaPos.y 24.0
+d STAGE_UI_LAYOUT::BattleMessageTextNoaPos.x  262.0 
+d STAGE_UI_LAYOUT::BattleMessageTextNoaPos.y 201.0
+
+d STAGE_UI_LAYOUT::BattleMessageBoxKurusuFontSize 40
+d STAGE_UI_LAYOUT::BattleMessageBoxKurusuPos.x 965.0
+d STAGE_UI_LAYOUT::BattleMessageBoxKurusuPos.y 110.0
+d STAGE_UI_LAYOUT::BattleMessageTextKurusuPos.x 1023.0 
+d STAGE_UI_LAYOUT::BattleMessageTextKurusuPos.y 158.0
+
+d STAGE_UI_LAYOUT::BattleStartIconLayerPriority 39999
+d STAGE_UI_LAYOUT::BattleClearIconLayerPriority 39999
+
+d STAGE_UI_LAYOUT::KeyIconLayerPriority 39998
+d STAGE_UI_LAYOUT::KeyIconPos.x 79
+d STAGE_UI_LAYOUT::KeyIconPos.y 217
+
+//SAVE_SELECT_UI_LAYOUT
+d SAVE_SELECT_UI_LAYOUT::SaveSelectBackPos.x 0.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectBackPos.y 0.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectBackPosLayerPriority 20000
+d SAVE_SELECT_UI_LAYOUT::NewGameIconPos1.x 390.0
+d SAVE_SELECT_UI_LAYOUT::NewGameIconPos1.y 280.0
+d SAVE_SELECT_UI_LAYOUT::NewGameIconPos2.x 390.0
+d SAVE_SELECT_UI_LAYOUT::NewGameIconPos2.y 500.0
+d SAVE_SELECT_UI_LAYOUT::NewGameIconPos3.x 390.0
+d SAVE_SELECT_UI_LAYOUT::NewGameIconPos3.y 740.0
+d SAVE_SELECT_UI_LAYOUT::NewGameIconLayerPriority 20001
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconPos1.x 198.0
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconPos1.y 295.0
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconPos2.x 198.0
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconPos2.y 539.0
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconPos3.x 198.0
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconPos3.y 771.0
+d SAVE_SELECT_UI_LAYOUT::ChoiceIconLayerPriority 20001
+d SAVE_SELECT_UI_LAYOUT::SaveSelectSaveDataPos1.x 630.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectSaveDataPos1.y 310.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectSaveDataPos2.x 630.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectSaveDataPos2.y 550.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectSaveDataPos3.x 630.0
+d SAVE_SELECT_UI_LAYOUT::SaveSelectSaveDataPos3.y 790.0
+
+d SAVE_SELECT_UI_SAVE_DATA::FontSize 70
+d DIALOG_UPGRADE::FontSize 50
+d DIALOG::FontSize 60
+d DIALOG::FontColor.r 0.0
+d DIALOG::FontColor.g 0.0
+d DIALOG::FontColor.b 0.0
+d DIALOG::FontColor.a 1.0
+d DIALOG::LineColor.r 0.0
+d DIALOG::LineColor.g 0.0
+d DIALOG::LineColor.b 0.0
+d DIALOG::LineColor.a 1.0
+
+//MENU_UI_LAYOUT_ROUND
+d MENU_UI_LAYOUT_ROUND::MenuSelectIcon.x 97.0
+d MENU_UI_LAYOUT_ROUND::MenuSelectIcon.y 75.0
+d MENU_UI_LAYOUT_ROUND::SelectIconPos1.x 563.0
+d MENU_UI_LAYOUT_ROUND::SelectIconPos1.y 370.0
+d MENU_UI_LAYOUT_ROUND::SelectIconPos2.x 563.0
+d MENU_UI_LAYOUT_ROUND::SelectIconPos2.y 603.0
+d MENU_UI_LAYOUT_ROUND::SelectIconPos3.x 563.0
+d MENU_UI_LAYOUT_ROUND::SelectIconPos3.y 835.0
+d MENU_UI_LAYOUT_ROUND::ChapterIconPos1.x 654.0
+d MENU_UI_LAYOUT_ROUND::ChapterIconPos1.y 351.0
+d MENU_UI_LAYOUT_ROUND::ChapterIconPos2.x 654.0
+d MENU_UI_LAYOUT_ROUND::ChapterIconPos2.y 584.0
+d MENU_UI_LAYOUT_ROUND::ChapterIconPos3.x 654.0
+d MENU_UI_LAYOUT_ROUND::ChapterIconPos3.y 817.0
+
+//MENU_UI_LAYOUT_UPGRADE
+d MENU_UI_LAYOUT_UPGRADE::MenuSelectIcon.x 702.0
+d MENU_UI_LAYOUT_UPGRADE::MenuSelectIcon.y 75.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemSpace 63.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos1.x 858.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos1.y 527.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos2.x 858.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos2.y 606.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos3.x 858.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos3.y 685.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos4.x 858.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos4.y 764.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos5.x 858.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos5.y 843.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos6.x 1699.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos6.y 606.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos7.x 1699.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos7.y 685.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos8.x 1699.0
+d MENU_UI_LAYOUT_UPGRADE::SelectIconPos8.y 764.0
+
+d MENU_UI_LAYOUT_UPGRADE::SkillPointPos.x 719.0
+d MENU_UI_LAYOUT_UPGRADE::SkillPointPos.y 412.0
+d MENU_UI_LAYOUT_UPGRADE::SkillPointSize 50
+
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos1.x 516.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos1.y 521.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos2.x 516.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos2.y 597.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos3.x 516.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos3.y 673.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos4.x 516.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos4.y 749.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos5.x 516.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos5.y 825.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos6.x 1484.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos6.y 603.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos7.x 1484.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos7.y 679.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos8.x 1484.0
+d MENU_UI_LAYOUT_UPGRADE::UpgradeItemPos8.y 755.0
+
+//MENU_UI_LAYOUT_SETTING
+d MENU_UI_LAYOUT_SETTING::MenuSelectIcon.x 1353.0
+d MENU_UI_LAYOUT_SETTING::MenuSelectIcon.y 75.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconSpace 39.2
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos1.x 820.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos1.y 430.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos2.x 820.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos2.y 568.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos3.x 820.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos3.y 712.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos4.x 820.0
+d MENU_UI_LAYOUT_SETTING::SettingLvIconPos4.y 850.0
+d MENU_UI_LAYOUT_SETTING::SelectIconOffsetPos.x -17.0
+d MENU_UI_LAYOUT_SETTING::SelectIconOffsetPos.y -75.0
+
+//OPTION
+d OPTION::SelectIconPos1.x 129.0
+d OPTION::SelectIconPos1.y 908.0
+d OPTION::SelectIconPos2.x 727.0
+d OPTION::SelectIconPos2.y 908.0
+d OPTION::SelectIconPos3.x 1313.0
+d OPTION::SelectIconPos3.y 908.0
+
+d SETTING::DefaultVolume 100
+d SETTING::DefaultSoundVolume 100
+d SETTING::DefaultBgmVolume 100
+d SETTING::DefaultAimSensitivity 100
+d SETTING::VolumeChangeAmount 5
+d SETTING::SoundVolumeChangeAmount 5
+d SETTING::BgmVolumeChangeAmount 5
+d SETTING::AimSensitivityChangeAmount 5
+
+d SETTING::VolumeChangeMin 0
+d SETTING::SoundVolumeChangeMin 0
+d SETTING::BgmVolumeChangeMin 0
+d SETTING::AimSensitivityChangeMin 0
+d SETTING::VolumeChangeMax 100
+d SETTING::SoundVolumeChangeMax 100
+d SETTING::BgmVolumeChangeMax 100
+d SETTING::AimSensitivityChangeMax 100

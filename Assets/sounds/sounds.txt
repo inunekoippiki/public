@@ -1,0 +1,4 @@
+s bgm Assets/sounds/funny_march.wav
+s monster_voice Assets/sounds/monster.wav
+s foot_step Assets/sounds/Footstep-high.wav
+s foot_step_loop Assets/sounds/nc105155.wav

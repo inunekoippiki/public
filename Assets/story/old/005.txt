@@ -1,0 +1,103 @@
+41
+forestRuinsNight 0 0 0 10 -1 10
+noa_mu 121 0 0 10 -1 0
+kurusu_mu 1043 0 1 0 -1 0
+noa_mu 121 0 2 0 -1 0
+kurusu_odoroku 1043 0 4 0 -1 0
+noa_odoroku 121 0 5 0 6 0
+kurusu_odoroku 1043 0 6 0 7 0
+noa_komaru 121 0 8 0 -1 0
+kurusu_kime 1043 0 8 0 -1 0
+noa_komaru 121 0 9 0 -1 0
+noa_egao1 121 0 10 0 -1 0
+kurusu_mu 1043 0 11 0 -1 0
+kurusu_komaru 1043 0 12 0 -1 0
+noa_komaru 121 0 13 0 -1 0
+kurusu_odoroku 1043 0 14 0 -1 0
+kurusu_kime 1043 0 16 0 -1 0
+noa_odoroku 121 0 17 0 -1 0
+cg3_0 0 0 18 10 -1 10
+black 0 0 28 10 -1 10
+forestRuinsNight 0 0 30 10 -1 10
+noa_kiri 121 0 30 10 -1 0
+noa_kiri 121 0 31 0 -1 0
+black 0 0 32 10 -1 10
+forestRuinsNight 0 0 33 10 -1 10
+noa_kiri 121 0 33 10 -1 0
+kurusu_kime 1043 0 34 0 -1 0
+black 0 0 35 10 -1 10
+forestRuinsNight 0 0 36 10 -1 10
+noa_kiri 121 0 36 10 -1 0
+kurusu_komaru 1043 0 36 0 -1 0
+noa_odoroku 121 0 38 0 -1 0
+kurusu_komaru 1043 0 39 0 -1 0
+black 0 0 40 10 -1 10
+forestRuinsNight 0 0 41 10 -1 10
+noa_komaru 121 0 41 0 -1 0
+kurusu_komaru 1043 0 42 0 -1 0
+noa_egao1 121 0 43 0 -1 0
+noa_mu 121 0 44 0 -1 0
+noa_kiri 121 0 45 0 -1 0
+kurusu_komaru 1043 0 46 0 -1 0
+noa_kiri 121 0 47 0 -1 0
+48
+ノア 0
+クルス 1
+ノア 2
+_ 3
+クルス 4
+ノア 5
+クルス 6
+_ 7
+クルス 8
+ノア 9
+ノア 10
+クルス 11
+クルス 12
+ノア 13
+クルス 14
+_ 15
+クルス 16
+ノア 17
+_ 18
+クルス 19
+ノア 20
+魔物 21
+クルス 22
+ノア 23
+ノア 24
+クルス 25
+ノア 26
+クルス 27
+_ 28
+魔物 29
+ノア 30
+ノア 31
+_ 32
+魔物 33
+クルス 34
+_ 35
+クルス 36
+魔物 37
+ノア 38
+クルス 39
+_ 40
+ノア 41
+クルス 42
+ノア 43
+ノア 44
+ノア 45
+クルス 46
+ノア 47
+11
+darkmatter 0 1
+bosu22_r 3 0
+running_on_the_gravel 7 0
+muon 15 1
+sword-gesture1 15 0
+n137 16 1
+bougyo 18 0
+kennooto 28 0
+fire02 32 0
+kennooto 35 0
+kenwootosu 40 0

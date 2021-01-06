@@ -1,0 +1,16 @@
+s battle1 Assets/sounds/BGM/Battle-RPGmaker_SFC2bgm07.wav
+s battle2 Assets/sounds/BGM/Battle-SAMURAI.wav
+s battle3 Assets/sounds/BGM/Battle-Sonic.wav
+s boss1 Assets/sounds/BGM/bossnekonoagit.wav
+s boss2 Assets/sounds/BGM/bossnekonoteshita.wav
+s boss3 Assets/sounds/BGM/bossnekonotoujou.wav
+s dark Assets/sounds/BGM/darkmatter.wav
+s bgm1 Assets/sounds/BGM/fjordnosundakaze.wav
+s bgm2 Assets/sounds/BGM/mayonakanoomochabako.wav
+s bgm3 Assets/sounds/BGM/neonpurple.wav
+s bgm4 Assets/sounds/BGM/shinigaminokoushin.wav
+s bgm5 Assets/sounds/BGM/suitekinoodori.wav
+s bgm6 Assets/sounds/BGM/tsukiyononezumitachi.wav
+s bgm7 Assets/sounds/BGM/yuuhitokobuta.wav
+s nef_a Assets/sounds/BGM/dungeo13a.wav
+s nef_b Assets/sounds/BGM/dungeo13b.wav

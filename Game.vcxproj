@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BATTLE_MESSAGE.h" />
+    <ClInclude Include="BILLBOARD.h" />
+    <ClInclude Include="BILLBOARDS.h" />
+    <ClInclude Include="BILLBOARD_BURN.h" />
+    <ClInclude Include="BILLBOARD_ENTITY_LIGHT_BULLET.h" />
+    <ClInclude Include="BILLBOARD_HIT.h" />
+    <ClInclude Include="BILLBOARD_LASER.h" />
+    <ClInclude Include="BILLBOARD_LIGHT_BULLET.h" />
+    <ClInclude Include="BOSS_FLASH.h" />
+    <ClInclude Include="BOSS_GAUGE.h" />
+    <ClInclude Include="CAMERA_FOLLOW.h" />
+    <ClInclude Include="COLLISION.h" />
+    <ClInclude Include="COLLISIONS.h" />
+    <ClInclude Include="COLLISION_CYLINDER.h" />
+    <ClInclude Include="COLLISION_MANAGER.h" />
+    <ClInclude Include="COLLISION_POINT.h" />
+    <ClInclude Include="COLLISION_SPHERE.h" />
+    <ClInclude Include="COLLISION_SPHERES.h" />
+    <ClInclude Include="COLLISION_TERRAIN.h" />
+    <ClInclude Include="createAssets.h" />
+    <ClInclude Include="DATA_LIB.h" />
+    <ClInclude Include="DIALOG_OPTION_EXIT.h" />
+    <ClInclude Include="DIALOG_OPTION_TITLE.h" />
+    <ClInclude Include="DIALOG_RETRY.h" />
+    <ClInclude Include="DIALOG_ROUND.h" />
+    <ClInclude Include="DIALOG_SAVE_DELETE.h" />
+    <ClInclude Include="DIALOG_SAVE_SELECT.h" />
+    <ClInclude Include="DIALOG_STORY_SKIP.h" />
+    <ClInclude Include="DIALOG_UPGRADE.h" />
+    <ClInclude Include="EFFEKSSER.h" />
+    <ClInclude Include="EFFEKSSER_CONNECT.h" />
+    <ClInclude Include="ENTITY.h" />
+    <ClInclude Include="ENTITY_BOSS.h" />
+    <ClInclude Include="ENTITY_BOSS_STATE_ATTACK1.h" />
+    <ClInclude Include="ENTITY_BOSS_STATE_ATTACK2.h" />
+    <ClInclude Include="ENTITY_BOSS_STATE_DOWN.h" />
+    <ClInclude Include="ENTITY_BOSS_STATE_IDEL.h" />
+    <ClInclude Include="ENTITY_BOSS_STATE_MOVE.h" />
+    <ClInclude Include="ENTITY_ENEMY.h" />
+    <ClInclude Include="ENTITY_HANA.h" />
+    <ClInclude Include="ENTITY_HANA_STATE_ATTACK.h" />
+    <ClInclude Include="ENTITY_HANA_STATE_DOWN.h" />
+    <ClInclude Include="ENTITY_HANA_STATE_IDEL.h" />
+    <ClInclude Include="ENTITY_HANA_STATE_MOVE.h" />
+    <ClInclude Include="ENTITY_LASER.h" />
+    <ClInclude Include="ENTITY_LASER_BOSS.h" />
+    <ClInclude Include="ENTITY_LASER_HANA.h" />
+    <ClInclude Include="ENTITY_LIGHT_BULLET.h" />
+    <ClInclude Include="ENTITY_LIGHT_BULLET_BOSS.h" />
+    <ClInclude Include="ENTITY_LIGHT_BULLET_MEDAMA.h" />
+    <ClInclude Include="ENTITY_MANAGER.h" />
+    <ClInclude Include="ENTITY_MEDAMA.h" />
+    <ClInclude Include="ENTITY_MEDAMA_STATE_ATTACK.h" />
+    <ClInclude Include="ENTITY_MEDAMA_STATE_DOWN.h" />
+    <ClInclude Include="ENTITY_MEDAMA_STATE_IDEL.h" />
+    <ClInclude Include="ENTITY_MEDAMA_STATE_MOVE.h" />
+    <ClInclude Include="ENTITY_PLAYER.h" />
+    <ClInclude Include="ENTITY_PLAYER_MELEE.h" />
+    <ClInclude Include="ENTITY_PLAYER_SHOT.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_AVOID.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_DOWN.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_IDEL.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_MELEE.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_MOVE.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_SHOT.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_SKILL1.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_SKILL2.h" />
+    <ClInclude Include="ENTITY_PLAYER_STATE_SKILL3.h" />
+    <ClInclude Include="ENTITY_STATE.h" />
+    <ClInclude Include="ENTITY_STATES.h" />
+    <ClInclude Include="ENTITY_STATE_BASE.h" />
+    <ClInclude Include="FADE.h" />
+    <ClInclude Include="GAME_DATA_COMMON.h" />
+    <ClInclude Include="HIT_POINT.h" />
+    <ClInclude Include="HP_GAUGE.h" />
+    <ClInclude Include="IDIALOG.h" />
+    <ClInclude Include="INPUT_COMMON.h" />
+    <ClInclude Include="listsFile.h" />
+    <ClInclude Include="LOAD_DISP.h" />
+    <ClInclude Include="MENU.h" />
+    <ClInclude Include="MENU_UI_LAYOUT.h" />
+    <ClInclude Include="MENU_UI_LAYOUT_ROUND.h" />
+    <ClInclude Include="MENU_UI_LAYOUT_SETTING.h" />
+    <ClInclude Include="MENU_UI_LAYOUT_UPGRADE.h" />
+    <ClInclude Include="OPTION.h" />
+    <ClInclude Include="PROLOGUE.h" />
+    <ClInclude Include="SAVE.h" />
+    <ClInclude Include="SAVE_SELECT.h" />
+    <ClInclude Include="SAVE_SELECT_UI_LAYOUT.h" />
+    <ClInclude Include="SAVE_SELECT_UI_SAVE_DATA.h" />
+    <ClInclude Include="SETTING.h" />
+    <ClInclude Include="DIALOG.h" />
+    <ClInclude Include="SOUND_MANAGER.h" />
+    <ClInclude Include="STAGE00.h" />
+    <ClInclude Include="STAGE01.h" />
+    <ClInclude Include="STAGE02.h" />
+    <ClInclude Include="STAGE.h" />
+    <ClInclude Include="STAGE_UI_LAYOUT.h" />
+    <ClInclude Include="STATE.h" />
+    <ClInclude Include="STATE_FACTORY.h" />
+    <ClInclude Include="STATE_MANAGER.h" />
+    <ClInclude Include="STORY.h" />
+    <ClInclude Include="STORY_TEXT_LAYOUT.h" />
+    <ClInclude Include="STRING_DIALOG.h" />
+    <ClInclude Include="TEXT_DISP.h" />
+    <ClInclude Include="TITLE.h" />
+    <ClInclude Include="UI_2D_LEFT.h" />
+    <ClInclude Include="UI_2D_CENTERED.h" />
+    <ClInclude Include="UI_2D_RIGHT.h" />
+    <ClInclude Include="UI_3D_CENTERED.h" />
+    <ClInclude Include="UI_3D_LEFT.h" />
+    <ClInclude Include="UI_BASE.h" />
+    <ClInclude Include="UI_DRAWER.h" />
+    <ClInclude Include="UI_DRAWER_ANIM.h" />
+    <ClInclude Include="UI_DRAWER_FACTORY.h" />
+    <ClInclude Include="UI_DRAWER_IMAGE.h" />
+    <ClInclude Include="UI_MANAGER.h" />
+    <ClInclude Include="UPGRADE.h" />
+    <ClInclude Include="UPGRADE_LVL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BATTLE_MESSAGE.cpp" />
+    <ClCompile Include="BILLBOARD.cpp" />
+    <ClCompile Include="BILLBOARDS.cpp" />
+    <ClCompile Include="BILLBOARD_BURN.cpp" />
+    <ClCompile Include="BILLBOARD_ENTITY_LIGHT_BULLET.cpp" />
+    <ClCompile Include="BILLBOARD_HIT.cpp" />
+    <ClCompile Include="BILLBOARD_LASER.cpp" />
+    <ClCompile Include="BILLBOARD_LIGHT_BULLET.cpp" />
+    <ClCompile Include="BOSS_FLASH.cpp" />
+    <ClCompile Include="BOSS_GAUGE.cpp" />
+    <ClCompile Include="CAMERA_FOLLOW.cpp" />
+    <ClCompile Include="COLLISION.cpp" />
+    <ClCompile Include="COLLISIONS.cpp" />
+    <ClCompile Include="COLLISION_CYLINDER.cpp" />
+    <ClCompile Include="COLLISION_MANAGER.cpp" />
+    <ClCompile Include="COLLISION_POINT.cpp" />
+    <ClCompile Include="COLLISION_SPHERE.cpp" />
+    <ClCompile Include="COLLISION_SPHERES.cpp" />
+    <ClCompile Include="COLLISION_TERRAIN.cpp" />
+    <ClCompile Include="createAssets.cpp" />
+    <ClCompile Include="DATA_LIB.cpp" />
+    <ClCompile Include="DIALOG_OPTION_EXIT.cpp" />
+    <ClCompile Include="DIALOG_OPTION_TITLE.cpp" />
+    <ClCompile Include="DIALOG_RETRY.cpp" />
+    <ClCompile Include="DIALOG_ROUND.cpp" />
+    <ClCompile Include="DIALOG_SAVE_DELETE.cpp" />
+    <ClCompile Include="DIALOG_SAVE_SELECT.cpp" />
+    <ClCompile Include="DIALOG_STORY_SKIP.cpp" />
+    <ClCompile Include="DIALOG_UPGRADE.cpp" />
+    <ClCompile Include="EFFEKSSER.cpp" />
+    <ClCompile Include="EFFEKSSER_CONNECT.cpp" />
+    <ClCompile Include="ENTITY.cpp" />
+    <ClCompile Include="ENTITY_BOSS.cpp" />
+    <ClCompile Include="ENTITY_ENEMY.cpp" />
+    <ClCompile Include="ENTITY_HANA.cpp" />
+    <ClCompile Include="ENTITY_LASER.cpp" />
+    <ClCompile Include="ENTITY_LASER_BOSS.cpp" />
+    <ClCompile Include="ENTITY_LASER_HANA.cpp" />
+    <ClCompile Include="ENTITY_LIGHT_BULLET.cpp" />
+    <ClCompile Include="ENTITY_LIGHT_BULLET_BOSS.cpp" />
+    <ClCompile Include="ENTITY_LIGHT_BULLET_MEDAMA.cpp" />
+    <ClCompile Include="ENTITY_MANAGER.cpp" />
+    <ClCompile Include="ENTITY_MEDAMA.cpp" />
+    <ClCompile Include="ENTITY_PLAYER.cpp" />
+    <ClCompile Include="ENTITY_PLAYER_MELEE.cpp" />
+    <ClCompile Include="ENTITY_PLAYER_SHOT.cpp" />
+    <ClCompile Include="ENTITY_STATES.cpp" />
+    <ClCompile Include="FADE.cpp" />
+    <ClCompile Include="GAME_DATA_COMMON.cpp" />
+    <ClCompile Include="HIT_POINT.cpp" />
+    <ClCompile Include="HP_GAUGE.cpp" />
+    <ClCompile Include="INPUT_COMMON.cpp" />
+    <ClCompile Include="listsFile.cpp" />
+    <ClCompile Include="LOAD_DISP.cpp" />
+    <ClCompile Include="MENU.cpp" />
+    <ClCompile Include="MENU_UI_LAYOUT.cpp" />
+    <ClCompile Include="MENU_UI_LAYOUT_ROUND.cpp" />
+    <ClCompile Include="MENU_UI_LAYOUT_SETTING.cpp" />
+    <ClCompile Include="MENU_UI_LAYOUT_UPGRADE.cpp" />
+    <ClCompile Include="OPTION.cpp" />
+    <ClCompile Include="PROLOGUE.cpp" />
+    <ClCompile Include="SAVE.cpp" />
+    <ClCompile Include="SAVE_SELECT.cpp" />
+    <ClCompile Include="SAVE_SELECT_UI_LAYOUT.cpp" />
+    <ClCompile Include="SAVE_SELECT_UI_SAVE_DATA.cpp" />
+    <ClCompile Include="SETTING.cpp" />
+    <ClCompile Include="DIALOG.cpp" />
+    <ClCompile Include="SOUND_MANAGER.cpp" />
+    <ClCompile Include="STAGE00.cpp" />
+    <ClCompile Include="STAGE01.cpp" />
+    <ClCompile Include="STAGE02.cpp" />
+    <ClCompile Include="STAGE.cpp" />
+    <ClCompile Include="STAGE_UI_LAYOUT.cpp" />
+    <ClCompile Include="STATE_FACTORY.cpp" />
+    <ClCompile Include="STATE_MANAGER.cpp" />
+    <ClCompile Include="STORY.cpp" />
+    <ClCompile Include="STORY_TEXT_LAYOUT.cpp" />
+    <ClCompile Include="STRING_DIALOG.cpp" />
+    <ClCompile Include="TEXT_DISP.cpp" />
+    <ClCompile Include="TITLE.cpp" />
+    <ClCompile Include="UI_2D_LEFT.cpp" />
+    <ClCompile Include="UI_2D_CENTERED.cpp" />
+    <ClCompile Include="UI_2D_RIGHT.cpp" />
+    <ClCompile Include="UI_3D_CENTERED.cpp" />
+    <ClCompile Include="UI_3D_LEFT.cpp" />
+    <ClCompile Include="UI_BASE.cpp" />
+    <ClCompile Include="UI_DRAWER.cpp" />
+    <ClCompile Include="UI_DRAWER_ANIM.cpp" />
+    <ClCompile Include="UI_DRAWER_IMAGE.cpp" />
+    <ClCompile Include="UI_DRAWER_FACTORY.cpp" />
+    <ClCompile Include="UI_MANAGER.cpp" />
+    <ClCompile Include="UPGRADE.cpp" />
+    <ClCompile Include="UPGRADE_LVL.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\data\data.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\Library.vcxproj">
+      <Project>{1c5eca6f-7dfb-4645-a514-d4aba0a214b5}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9B54DCBD-6EAF-4060-AA55-05B19D6D40EF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Library\FBX SDK\2016.1.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Library\debug;..\Library\FBX SDK\2016.1.2\lib\vs2015\x86\debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>library.lib;libfbxsdk-md.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\EffekseerRuntime143d\src\lib\x64;..\EffekseerRuntime143d\src\EffekseerRendererDX11;..\EffekseerRuntime143d\src\Effekseer;..\Library\x64\debug;..\Library\FBX SDK\2019.0\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Library\debug;..\EffekseerRuntime143d\src\lib\x64;..\EffekseerRuntime143d\src\EffekseerRendererDX11;..\EffekseerRuntime143d\src\Effekseer;..\Library\x64\debug;..\Library\x64\debug;..\Library\FBX SDK\2019.0\lib\vs2015\x64\debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EffekseerRendererDX11.Debug.lib;Effekseer.Debug.lib;legacy_stdio_definitions.lib;libfbxsdk-md.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Library\release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>library.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\EffekseerRuntime143d\src\lib\x64;..\EffekseerRuntime143d\src\EffekseerRendererDX11;..\EffekseerRuntime143d\src\Effekseer;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\EffekseerRuntime143d\src\lib\x64;..\EffekseerRuntime143d\src\EffekseerRendererDX11;..\EffekseerRuntime143d\src\Effekseer;..\Library\x64\release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EffekseerRendererDX11.Release.lib;Effekseer.Release.lib;legacy_stdio_definitions.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+x HitEffect.0 Assets/images/HitEffect/HitEffect.0.png
+x HitEffect.1 Assets/images/HitEffect/HitEffect.1.png
+x HitEffect.2 Assets/images/HitEffect/HitEffect.2.png
+x HitEffect.3 Assets/images/HitEffect/HitEffect.3.png
+x HitEffect.4 Assets/images/HitEffect/HitEffect.4.png
+x HitEffect.5 Assets/images/HitEffect/HitEffect.5.png
+x HitEffect.6 Assets/images/HitEffect/HitEffect.6.png
+x HitEffect.7 Assets/images/HitEffect/HitEffect.7.png
+x HitEffect.8 Assets/images/HitEffect/HitEffect.8.png
+x HitEffect.9 Assets/images/HitEffect/HitEffect.9.png

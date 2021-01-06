@@ -1,0 +1,16 @@
+x minus Assets/images/Debug/minus.png
+x num1 Assets/images/Debug/num1.gif
+x num10 Assets/images/Debug/num10.gif
+x num2 Assets/images/Debug/num2.gif
+x num3 Assets/images/Debug/num3.gif
+x num4 Assets/images/Debug/num4.gif
+x num5 Assets/images/Debug/num5.gif
+x num6 Assets/images/Debug/num6.gif
+x num7 Assets/images/Debug/num7.gif
+x num8 Assets/images/Debug/num8.gif
+x num9 Assets/images/Debug/num9.gif
+x plus Assets/images/Debug/plus.png
+x round Assets/images/Debug/round.png
+x save1 Assets/images/Debug/save1.png
+x seting Assets/images/Debug/seting.png
+x upgrade Assets/images/Debug/upgrade.png

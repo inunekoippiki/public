@@ -1,0 +1,61 @@
+25
+white	0	0	0	120	3	10
+forestRuinsMorning	0	0	1	10	15	10
+noa_komaru	121	0	1	10	6	0
+Noa_egao2	121	0	4	0	9	0
+kurusu_egao1	1043	0	4	0	8	0
+kurusu_egao2	1043	0	6	0	10	0
+noa_egao1	121	0	7	0	11	0
+kurusu_egao2	1043	0	8	0	15	0
+Noa_egao2	121	0	9	0	15	0
+black	0	0	12	10	15	10
+villageMorning	0	0	13	10	29	10
+noa_mu	121	0	14	0	22	0
+girl_komaru	699	0	15	0	19	0
+kurusu_egao1	1043	0	16	0	23	0
+girl_mu	699	0	17	0	20	0
+girl_egao1	699	0	18	0	21	0
+girl_egao2	699	0	19	0	25	0
+Noa_egao2	121	0	20	0	29	0
+kurusu_egao1	1043	0	21	0	24	0
+kurusu_egao2	1043	0	22	0	29	0
+girl_komaru	699	0	23	0	26	0
+girl_egao2	699	0	24	0	29	0
+black	0	0	27	10	30	10
+fin	0	0	28	40	31	10
+black	0	0	29	10	-1	10
+30
+_	1
+ノア	2
+_	3
+？？？	4
+ノア	5
+クルス	6
+クルス	7
+ノア	8
+クルス	9
+ノア	10
+クルス	11
+ノア	12
+_	13
+_	14
+ノア	15
+村の少女	16
+クルス	17
+村の少女	18
+村の少女	19
+村の少女	20
+ノア	21
+クルス	22
+クルス	23
+村の少女	24
+村の少女	25
+クルス	26
+ノア	27
+_	28
+_	29
+_	30
+3
+12323 0 1
+running_on_the_gravel 2 0
+12319 14 1

@@ -1,0 +1,697 @@
+page[
+	{
+		text[
+			{text{ この地図、実際の地形と違いすぎて、あんまり当てにならないな‥‥}}
+		]
+		name{ クルス }
+		image[
+			{image{forestRuinsMorning}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{kurusu_komaru}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{neonpurple}loop{ 0 }}
+		]
+	}
+	{
+		text[
+			{text{ 近くに住んでる人ならこの辺りの地形に詳しいだろうし、\nそこの村で誰かに話を聞いてみようﾍ}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ そうだな。ちょっと寄っていくか}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_egao1}px{1043.000000}py{0.000000 }fadeIn{0}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 着いたけど‥‥全然人が見当たらないね}}
+		]
+		name{ ノア }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{villageEvening}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ もしかしてこの村、誰も住んでないのか？}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ いや‥‥ }}
+		]
+		name{ ノア }
+		image[
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 村のあちこちに石の彫刻や綺麗な花束が置いてあるから、\n少なくとも置いた人がいると思うよ。ﾍ}}
+		]
+		name{ ノア }
+		image[
+			{image{statue1}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ それもそうだな。\nもう夕方だから、皆家に帰ったのかもしれないし‥‥‥‥ん？ ﾍ}}
+		]
+		name{ クルス }
+		image[
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ どうかした？}}
+		]
+		name{ ノア }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+			{image{villageEvening}px{0.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ いや、何か聞こえたような気が‥‥。}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ キャーーー！}}
+		]
+		name{ ??? }
+		image[
+			{image{noa_odoroku}px{121.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{kurusu_odoroku}px{1043.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{bossnekonoteshita}loop{ 10 }}
+		]
+	}
+	{
+		text[
+			{text{ ！？}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_odoroku}px{121.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ あっちからだ！ }}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_kime}px{1043.000000}py{0.000000 }fadeIn{0}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 鍵がかかってる‥‥。}}
+		]
+		name{ ノア }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{villageEvening}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{running_on_the_gravel}loop{ 13 }}
+		]
+	}
+	{
+		text[
+			{text{ ‥‥よし、蹴破るぞ！ }}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_kime}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 開いた！ }}
+		]
+		name{ クルス }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{dorrclash}loop{ 15 }}
+		]
+	}
+	{
+		text[
+			{text{ ｳｵｫ~ﾝ}}
+		]
+		name{ 魔物 }
+		image[
+			{image{houses}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 家の中に魔物が‥‥！？}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_odoroku}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ た、助けてください‥‥！}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_komaru}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ノア、この子を頼む！}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_kime}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 分かった。}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_kiri}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ (剣の音)}}
+		]
+		name{ _ }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{kennooto}loop{ 21 }}
+			{sound{medama_down}loop{ 21 }}
+		]
+	}
+	{
+		text[
+			{text{ ‥‥助けてくれてありがとうございます！\n何かお礼をさせてください。ﾍ}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{houses}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{girl_egao1}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{neonpurple}loop{ 22 }}
+		]
+	}
+	{
+		text[
+			{text{ どういたしまして。\n‥‥じゃあ、何で家の中に魔物がいたのか聞いてもいいか？ﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_egao1}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ はい。分かってること、全部話しますね。 }}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_egao1}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ クルスとノアは少女から村の呪いについて聞いた。 }}
+		]
+		name{ _ }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥やたらと石像が多い村だとは思ったが、\nまさかその石像が本物の人間で、しかももうすぐ消えてしまうなんて‥‥\n話が壮大すぎて、まるで理解が追い付かないな‥‥。ﾍﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{houses}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{kurusu_odoroku}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{0}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ そうだね。\n‥‥でも、これで地図とこの辺りの地形が違う理由は分かった。ﾍ}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_odoroku}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ああ、魔物が勢力を広げたことで、\nその住処である森が広がったと考えると説明がつくな。ﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 確かに、魔物の森はここ数年でどんどん大きくなってると思います。\n‥‥前は近くに他の 村もありましたが、\n魔物の森に呑まれてしまって、今はもうこの村しか残っていません‥‥。ﾍﾍ}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_komaru}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ （ここに来る途中で見た廃墟は、もともと別の村だったのか‥‥）}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ この村まで廃れてしまう前になんとかしないとな‥‥。}}
+		]
+		name{ クルス }
+		image[
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥そういえば、石像になった人間が突然消えるのってどういう原理なの？}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ それがまだ分かっていないんです。\nでも、私は‥‥石像が消えるのは、\n魔物の森に連れて行かれるせいだと思ってます。ﾍﾍ}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_mu}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 魔物に人間が連れていかれるところを、誰か見たのか？}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ いいえ、見てはいません。でも‥‥\nいつも、石像が消える数と、村に出てくる魔物の数が一緒だったから‥‥\nそうだと思ったんです。ﾍﾍ}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_mu}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥なるほどね。}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥お願いします。\n魔物の森に行って、一番奥の廃墟に棲んでいる、大きな魔物を\n倒してほしいんです。\n村の呪いを解くには、この魔物を浄化するしかないから‥‥。ﾍﾍﾍ}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_komaru}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ そいつが呪いの元凶か‥‥。\nもちろん、出来る限りのことはする。\nけどその前に、もう一つ聞いていいか？ ﾍﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ はい。何でも聞いてください。 }}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_egao1}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ その‥‥村を襲いに来る魔物って、村の外の森から来るから、\n皆家の中に隠れてたんだよな。\n鍵なんかもちゃんと閉めて‥‥。ﾍﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ そうですね。しっかり戸締まりして、家で大人しくしていれば魔物には\n襲われないので、皆そうしています。‥‥今日は鍵をかけるのを忘れ\nていたみたいで、家に魔物が入ってきてしまいましたが‥‥\n危ないところを助けていただいて本当に助かりました。ﾍﾍﾍ}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_mu}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 鍵はかかってたと思うけど‥‥。}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_komaru}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥え？}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_odoroku}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥わたしたちがどうやってこの部屋に入ってきたか、覚えてる？}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_mu}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ はい。それはもう、派手にドアを破壊して‥‥。}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_komaru}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥ああ。この建物の扉には鍵がかかってたから、\n無理やり壊して入ったんだ。ﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_mu}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ じゃあ、どうして家の中に魔物が出たんですか‥‥？}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_odoroku}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ それは‥‥。 }}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_komaru}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥？}}
+		]
+		name{ 村の少女 }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{10}stFadeOutPage{-1}}
+			{image{houses}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{0}stFadeOutPage{-1}}
+			{image{girl_odoroku}px{700.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{Monster01-3}loop{ 49 }}
+			{sound{shinigaminokoushin}loop{ 49 }}
+		]
+	}
+	{
+		text[
+			{text{ ‥‥悪いけど、話は後だ。近くに魔物の気配を感じる。}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_kime}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ すぐに戻るから、ここで待ってて。}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_kiri}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ わ、わかりました‥‥！ }}
+		]
+		name{ 村の少女 }
+		image[
+			{image{girl_odoroku}px{800.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ｳｵｫ~ﾝ }}
+		]
+		name{ 魔物 }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{10}stFadeOutPage{-1}}
+			{image{villageEvening}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{running_on_the_gravel}loop{ 53 }}
+		]
+	}
+	{
+		text[
+			{text{ 思ったより多いな‥‥。}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_komaru}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ここで戦ったら被害が出そうだし、\n村の外まで誘い出して戦おう。ﾍ}}
+		]
+		name{ ノア }
+		image[
+			{image{noa_komaru}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ‥‥そうだな。森まで走るか。}}
+		]
+		name{ クルス }
+		image[
+			{image{kurusu_komaru}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ ｳｵｫ~ﾝ }}
+		]
+		name{ 魔物 }
+		image[
+			{image{black}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{10}stFadeOutPage{-1}}
+			{image{forestRuinsEvening}px{0.000000}py{0.000000 }fadeIn{10}fadeOut{10}stFadeOutPage{-1}}
+			{image{kurusu_kime}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+			{sound{running_on_the_gravel}loop{ 57 }}
+		]
+	}
+	{
+		text[
+			{text{ なんとか誘導出来たな‥‥。\n俺は向こうのでかい魔物から片付ける。\nそっちは任せた！ﾍﾍ}}
+		]
+		name{ クルス }
+		image[
+			{image{noa_kiri}px{121.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ 分かった。}}
+		]
+		name{ ノア }
+		image[
+			{image{kurusu_kime}px{1043.000000}py{0.000000 }fadeIn{20}fadeOut{10}stFadeOutPage{-1}}
+		]
+		sound[
+		]
+	}
+	{
+		text[
+			{text{ それじゃあ行くぞ！}}
+		]
+		name{ クルス }
+		image[
+		]
+		sound[
+		]
+	}
+]
+
